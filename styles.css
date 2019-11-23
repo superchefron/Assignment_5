@@ -1,0 +1,26 @@
+body {
+    background-color: lightblue;
+    text-align: center;
+}
+h1, a{
+    text-align: center;
+    margin-top: 200px;
+}
+table, tr, td {
+    border: 1px solid red;
+    margin: 0 auto;
+}
+button, button:visited {
+    height: 30px;
+    width: 90px;
+    margin: 2px;
+}
+button:hover {
+    background-color: lightgrey;
+}
+td {
+    padding: 25px;
+}
+.memoryBoard {
+
+}

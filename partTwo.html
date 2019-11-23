@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Part B</title>
+    <link rel="stylesheet" href="styles.css" type="text/css">
+    <script rel="script" src="game.js" type="text/javascript"></script>
+</head>
+<body>
+    <h2>Memory Game</h2>
+    <p id="info"></p>
+    Please select the size of the grid:
+    <select id="table_size">
+        <option value="Level_1">3x3</option>
+        <option value="Level_2">4x4</option>
+        <option value="Level_3">5x5</option>
+    </select><br>
+    Please select your difficulty:
+    <select id="mem_time">
+        <option value="8">Level 1 (8 sec reveal time)</option>
+        <option value="5">Level 2 (5 sec reveal time)</option>
+        <option value="3">Level 3 (3 sec reveal time)</option>
+    </select><br><br>
+    <button onclick="play(); plot_info()">Play</button>
+    <p id="test"></p>
+    <div id="Level_1" class="memoryBoard" hidden>
+        <table>
+            <tr>
+                <td><img src="image001.gif" ALT="1"></td>
+                <td><img src="image002.gif" ALT="2"></td>
+                <td><img src="image003.gif" ALT="3"></td>
+            </tr>
+            <tr>
+                <td><img src="image005.gif" ALT="4"></td>
+                <td><img src="image006.gif" ALT="5"></td>
+                <td><img src="image007.gif" ALT="6"></td>
+            </tr>
+            <tr>
+                <td><img src="image009.gif" ALT="7"></td>
+                <td><img src="image010.gif" alt="8"></td>
+                <td><img src="image011.gif" ALT="9"></td>
+            </tr>
+        </table>
+    </div>
+    <div id="Level_2" class="memoryBoard" hidden>
+        <table>
+            <tr>
+                <td><img src="image001.gif" alt="1"></td>
+                <td><img src="image002.gif" alt="2"></td>
+                <td><img src="image003.gif" alt="3"></td>
+                <td><img src="image004.gif" alt="4"></td>
+            </tr>
+            <tr>
+                <td><img src="image005.gif" alt="5"></td>
+                <td><img src="image006.gif" ALT="6"></td>
+                <td><img src="image007.gif" ALT="7"></td>
+                <td><img src="image008.gif" ALT="8"></td>
+            </tr>
+            <tr>
+                <td><img src="image009.gif" ALT="9"></td>
+                <td><img src="image010.gif" ALT="10"></td>
+                <td><img src="image011.gif" ALT="11"></td>
+                <td><img src="image012.gif" ALT="12"></td>
+            </tr>
+            <tr>
+                <td><img src="image013.gif" ALT="13"></td>
+                <td><img src="image014.gif" ALT="14"></td>
+                <td><img src="image015.gif" ALT="15"></td>
+                <td><img src="image016.gif" ALT="16"></td>
+            </tr>
+        </table>
+    </div>
+    <a href="index.html">Homepage</a>
+</body>
+</html>
