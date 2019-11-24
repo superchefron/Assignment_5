@@ -21,6 +21,9 @@ button:hover {
 td {
     padding: 25px;
 }
-.memoryBoard {
-
+div.memoryBoard {
+    background-color: beige;
+    border: black 1px solid;
+    margin: 0 auto;
+    width: fit-content;
 }
